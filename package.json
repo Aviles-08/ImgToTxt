@@ -1,0 +1,19 @@
+{
+  "name": "dv2025-sv-js-imgtotxt",
+  "version": "1.0.0",
+  "description": "API OCR con Express y Tesseract.js para extraer texto de imágenes de identificaciones.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["ocr", "tesseract", "express", "image-to-text", "api"],
+  "author": "Iván Gilberto Solís Pino",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.4",
+    "tesseract.js": "^6.0.1"
+  }
+}
